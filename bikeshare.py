@@ -219,6 +219,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+        table_stats(df, city)
 
         display_data(df)
 
